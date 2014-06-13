@@ -1,0 +1,13 @@
+Install instructions:
+
+This app depends on Facebook SDK, because of demo of using Facebook indexing service.
+As facebook applink index service is just one implementation for resolving applink, it is actually not required to work with AppLinks.
+As You may need to fix the framework path by deleting it and re-adding from where FacebookSDK.framework installed (usually it is in ~/Documents/FacebookSDK)
+To install Facebook SDK: https://developers.facebook.com/docs/ios/
+
+This sample app depends on Bolts-iOS,  however, if you have latest Facebook SDK, bolts is already included in.
+
+If you don't use facebook sdk and you want to try out Bolts separately, BoltsFramework is on github:
+Bolts-iOS: https://github.com/BoltsFramework/Bolts-iOS
+
+You will need to build it with scripts/build_framework.sh and drag the framework from ./build/ios to your application.
