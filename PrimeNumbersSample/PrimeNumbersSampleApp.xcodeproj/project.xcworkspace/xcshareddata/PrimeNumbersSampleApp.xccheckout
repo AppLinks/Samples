@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B5EBB987-714B-4799-B04F-2BFC7ABBB724</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PrimeNumbersSampleApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2BDB032F-7E6F-499F-A668-94E9CF4E5466</key>
+		<string>https://github.com/AppLinks/Samples.git</string>
+		<key>CAD0EFF5-279F-44EC-920A-2BB7137F8659</key>
+		<string>https://github.com/ParsePlatform/Bolts-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PrimeNumbersSample/PrimeNumbersSampleApp.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2BDB032F-7E6F-499F-A668-94E9CF4E5466</key>
+		<string>../../..</string>
+		<key>CAD0EFF5-279F-44EC-920A-2BB7137F8659</key>
+		<string>../../../../Bolts-iOS</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AppLinks/Samples.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2BDB032F-7E6F-499F-A668-94E9CF4E5466</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2BDB032F-7E6F-499F-A668-94E9CF4E5466</string>
+			<key>IDESourceControlWCCName</key>
+			<string>appLinks-samples</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CAD0EFF5-279F-44EC-920A-2BB7137F8659</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Bolts-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
