@@ -1,0 +1,20 @@
+Instructions about Frameworks:
+
+1. This app depends on Bolts. You will need to set it up from https://github.com/BoltsFramework/Bolts-iOS
+use scripts/build_framework.sh to build and drag the build framework from ./build/ios/ into your Frameworks.
+
+
+Prime Number Sample
+
+The purpose of this sample app is to demonstrate how to use App Link to let users to share your app.
+
+This app is not relying on Facebook SDK.  Users share the views by paste the app links to other apps (e.g facebook, quip, etc).
+
+The App use Bolts framework which provides useful functions to support App Link, it is possible you don't use it at all.
+
+If you don't want to use Bolts, what you need to do to parse the incoming app link are:
+  1. extract string value of "al_applink_data" from [url query] by seperating it with @"&" then @"="
+  2. URL decode the string value with: NSString stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding
+  3. JSON decode the string into NSDictionary by: NSJSONSerialization JSONObjectWithData:options:error
+  4. get value for key @"target_url" from the NSDictionary, which is generated and understandable by your app
+  5. parse the target_url to instanciate your view controllers and navigation controllers to open.

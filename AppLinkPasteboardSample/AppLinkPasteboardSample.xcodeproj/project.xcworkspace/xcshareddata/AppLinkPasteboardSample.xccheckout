@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>30119873-5604-4750-8620-8D5FE6403209</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AppLinkPasteboardSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2BDB032F-7E6F-499F-A668-94E9CF4E5466</key>
+		<string>https://github.com/AppLinks/Samples.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AppLinkPasteboardSample/AppLinkPasteboardSample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2BDB032F-7E6F-499F-A668-94E9CF4E5466</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AppLinks/Samples.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2BDB032F-7E6F-499F-A668-94E9CF4E5466</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2BDB032F-7E6F-499F-A668-94E9CF4E5466</string>
+			<key>IDESourceControlWCCName</key>
+			<string>appLinks-samples</string>
+		</dict>
+	</array>
+</dict>
+</plist>
