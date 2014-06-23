@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <Button
+            style="@android:style/MediaButton.Ffwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prev"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentStart="true"
+            android:text="-1" />
+    <Button
+            style="@android:style/MediaButton.Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/next"
+            android:layout_marginRight="10dp"
+            android:layout_alignTop="@+id/prev"
+            android:layout_alignParentEnd="true"
+            android:text="+1" />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/numView"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/prev"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:layout_below="@+id/numView"
+            android:id="@+id/assertTextView"
+            android:textSize="24sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/detailTextView"
+            android:textSize="20sp"
+            android:layout_below="@+id/assertTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is Prime Number?"
+            android:id="@+id/definitionButton"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"/>
+</RelativeLayout>

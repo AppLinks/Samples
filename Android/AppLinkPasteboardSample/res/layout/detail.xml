@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Canonical URL"
+            android:layout_marginTop="15dp"
+            android:id="@+id/textView"
+            android:textStyle="bold"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rawURL"/>
+    <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Open In Browser"
+            android:id="@+id/openInWebButton"
+            android:layout_gravity="center_horizontal"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Resolved (by WebView) Intent key Info:"
+            android:id="@+id/textView2"
+            android:textStyle="bold"/>
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/listView"
+            android:layout_gravity="center_horizontal"/>
+
+    <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Open Resolved AppLink"
+            android:id="@+id/openResolvedButton"
+            android:layout_gravity="center_horizontal"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Facebook indexing Graph Api Response:"
+            android:id="@+id/textView3"
+            android:textStyle="bold"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:text="Graph API results"
+            android:id="@+id/graphApiResponseView"
+            android:textStyle="italic"
+            android:padding="15dp"/>
+    <Button
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="DELETE"
+            android:id="@+id/deleteButton"
+            android:layout_gravity="center_horizontal"/>
+</LinearLayout>

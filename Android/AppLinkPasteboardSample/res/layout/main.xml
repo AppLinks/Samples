@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1"  >
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.70"
+            android:id="@+id/applinkListView"
+            android:choiceMode="singleChoice"/>
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:hint="add new link here"
+            android:id="@+id/newLinkTextField"
+            android:layout_marginTop="50dp"
+            android:layout_weight="0.15"/>
+    <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Add"
+            android:id="@+id/addButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="50dp"
+            android:layout_centerHorizontal="true"/>
+</LinearLayout>
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.applinks.PrimeNumberSampleApp"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="19"/>
+    <application android:label="@string/app_name" android:icon="@drawable/pn_launcher">
+        <!--
+           This app has two activities and both of them are entrances to the app.
+           One is a static activity, "DefinitionActivity", whose content does not depend on params passed in.
+           The other is a dynamic activity, "NumberDetailActivity".  You can find the Copy App Link on the option menu to
+           get the app link on the view of these two activities.  They look like:
+            1. http://primenumber.parseapp.com/definition
+            2. http://primenumber.parseapp.com/number/?id=xxx
+           These are App Links as their http response includes app link meta tags in the html. This
+           can be translated to an android intent used to launch the target native app, if installed.
+        -->
+        <activity android:name=".DefinitionActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <!--
+                    register what url scheme this activity will be listening on,
+                    so when "al:android:url" is specified with the same value in the html meta tags,
+                    this activity will be activated.
+                -->
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="primenumber-sample-app" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".NumberDetailActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+            <!--
+                where "al:android:class" is specified in the html meta tags, instead of "al:android:url".
+                The out-linking app will create an intent direct to this activity.
+                This is an alternative way for app linking on android.
+
+                Lastly, if you don't specify either "al:android:class" or "al:android:url",  as long as you register
+                this activity to listen on "scheme="http" with proper host (and path),  this activity of your app can
+                still be triggered instead of the browser, as the result of setting the required property
+                "al:android:package".
+             -->
+        </activity>
+    </application>
+</manifest>
