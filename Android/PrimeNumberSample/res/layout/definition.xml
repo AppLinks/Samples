@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself."
+            />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Examples of Prime Numbers:"/>
+    <GridView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.35"
+            android:id="@+id/primeExamplesGrid" android:numColumns="4" android:choiceMode="singleChoice"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Examples of Non Prime Numbers:"/>
+    <GridView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.35"
+            android:id="@+id/nonPrimeExamplesGrid" android:layout_gravity="center_horizontal" android:numColumns="4"
+            android:choiceMode="singleChoice"/>
+</LinearLayout>
+
